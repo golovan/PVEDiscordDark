@@ -10,7 +10,7 @@ const swapLogo = async function() {
 			node.parentElement.parentElement.style.background = '#23272A';
 			node.setAttribute('height', `${height}px`);
 			node.setAttribute('width', `${width}px`);
-			node.setAttribute('src', '/pve2/images/proxmox-logo.svg');
+			node.setAttribute('src', '/pve2/images/dd_proxmox-logo.svg');
 		}
 	}
 	if (!found) {
